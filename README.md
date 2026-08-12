@@ -4,6 +4,12 @@ An interactive web front end for the [BeatAML 2.0](https://biodev.github.io/Beat
 acute myeloid leukemia dataset — 805 patients with matched clinical annotation,
 somatic mutation calls, and *ex vivo* inhibitor sensitivity.
 
+## Watch it in action
+
+[![BeatAML2 Explorer — video walkthrough of the web interface](docs/interface-video-poster.png)](https://vimeo.com/1217770918/4155af89e3)
+
+**▶ [Video walkthrough of the interface](https://vimeo.com/1217770918/4155af89e3)** (Vimeo)
+
 Seven linked views. All except Profile match are scoped by one global filter row;
 Profile match takes its own patient description instead.
 
