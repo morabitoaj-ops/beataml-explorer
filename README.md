@@ -28,7 +28,18 @@ they carry, what did the assay actually measure (real dose–response curves, no
 just AUC), what does the cohort say their genotype implies, where does their
 transcriptome sit, and who else looks like them.
 
-## Running it
+## Live site
+
+Published free on GitHub Pages from `web/` via `.github/workflows/pages.yml`,
+which redeploys on every push to `main`:
+
+**https://morabitoaj-ops.github.io/beataml-explorer/**
+
+To enable it on a fresh fork: *Settings → Pages → Source: **GitHub Actions***.
+Nothing is compiled — the workflow uploads `web/` as-is. All asset paths are
+relative, so the site works from a subpath without configuration.
+
+## Running it locally
 
 ```bash
 cd web

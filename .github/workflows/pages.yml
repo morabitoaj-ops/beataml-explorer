@@ -1,0 +1,44 @@
+name: Deploy site to GitHub Pages
+
+# The site is static — HTML, CSS, JS and pre-built JSON — so there is nothing to
+# compile. This workflow just publishes the web/ directory as-is. Using an
+# Actions deploy (rather than the "branch + /docs folder" setting) keeps the
+# repository layout intact: the site stays in web/, and docs/ stays free for
+# README assets.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:      # lets you redeploy by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; queue them instead of cancelling a live one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the web/ directory
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
