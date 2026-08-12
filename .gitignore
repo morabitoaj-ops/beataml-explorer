@@ -1,0 +1,16 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Source data from the BeatAML 2.0 release — 338 MB, and the expression matrix
+# alone is 268 MB, well past GitHub's 100 MB per-file limit. Re-fetch it with
+# ./fetch_data.sh; the derived files the site actually loads are committed under
+# web/data/, so the site runs without this directory.
+data/raw/
+
+# Regenerable build cache
+data/pubchem_cache.json
+
+# OS noise
+.DS_Store

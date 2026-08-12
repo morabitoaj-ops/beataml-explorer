@@ -1,0 +1,492 @@
+{
+  "_note": "Human-written reference text. NOT part of the BeatAML 2.0 release and not machine-verified. Molecular formula/weight/structure shown alongside this in the app come from PubChem and are authoritative; the fields here (developer, mechanism, other uses) are background summaries and should be confirmed against the linked PubChem entry or a drug label before being relied on. Keyed by the drug's primary name.",
+  "Venetoclax": {
+    "developer": "AbbVie (from Abbott's BCL-2 programme) with Genentech/Roche; originally ABT-199.",
+    "mechanism": "A BH3-mimetic: it plugs the groove on the BCL-2 protein that normally sequesters pro-death partners. Freed, those partners trigger apoptosis, so the leukemia cell executes the self-destruct programme it had been suppressing.",
+    "chemClass": "Small-molecule sulfonamide.",
+    "otherUses": "Approved for chronic lymphocytic leukemia and small lymphocytic lymphoma, and for AML in combination with azacitidine, decitabine or low-dose cytarabine in adults unfit for intensive chemotherapy.",
+    "status": "Approved",
+    "activeIngredient": "Venetoclax (sold as Venclexta / Venclyxto)"
+  },
+  "Cabozantinib": {
+    "developer": "Exelixis.",
+    "mechanism": "Blocks several receptor tyrosine kinases at once — MET, VEGFR2, AXL, RET, KIT and FLT3 — cutting both growth signalling and the tumour's blood supply.",
+    "chemClass": "Quinoline-based small molecule.",
+    "otherUses": "Approved for medullary and differentiated thyroid cancer, advanced renal cell carcinoma, and hepatocellular carcinoma after sorafenib.",
+    "status": "Approved",
+    "activeIngredient": "Cabozantinib (sold as Cabometyx and Cometriq)"
+  },
+  "Quizartinib": {
+    "developer": "Ambit Biosciences, later developed by Daiichi Sankyo.",
+    "mechanism": "A highly selective type II FLT3 inhibitor: it binds FLT3 only in its inactive shape, wedging the kinase shut. Because it needs that inactive conformation, it works well against FLT3-ITD but poorly against TKD mutations such as D835 that hold the kinase open.",
+    "chemClass": "Benzothiazole bis-aryl urea.",
+    "otherUses": "Approved with chemotherapy for newly diagnosed FLT3-ITD-positive AML. Not used outside AML.",
+    "status": "Approved",
+    "activeIngredient": "Quizartinib (sold as Vanflyta)"
+  },
+  "Sorafenib": {
+    "developer": "Bayer with Onyx Pharmaceuticals.",
+    "mechanism": "A multi-kinase inhibitor hitting RAF along the MAPK growth pathway plus VEGFR, PDGFR, KIT and FLT3. Like quizartinib it is a type II binder, so FLT3 TKD mutants resist it.",
+    "chemClass": "Bis-aryl urea.",
+    "otherUses": "Approved for hepatocellular carcinoma, advanced renal cell carcinoma, and radioactive-iodine-refractory differentiated thyroid carcinoma.",
+    "status": "Approved",
+    "activeIngredient": "Sorafenib (sold as Nexavar)"
+  },
+  "Sunitinib": {
+    "developer": "SUGEN, then Pfizer.",
+    "mechanism": "Broad receptor tyrosine kinase inhibitor — VEGFR, PDGFR, KIT, FLT3 and RET — combining an anti-growth effect with an anti-angiogenic one.",
+    "chemClass": "Indolinone (oxindole).",
+    "otherUses": "Approved for renal cell carcinoma, imatinib-resistant gastrointestinal stromal tumour, and pancreatic neuroendocrine tumours.",
+    "status": "Approved",
+    "activeIngredient": "Sunitinib (sold as Sutent)"
+  },
+  "Midostaurin": {
+    "developer": "Novartis, originating in Ciba-Geigy research on staurosporine derivatives.",
+    "mechanism": "A type I FLT3 inhibitor — it binds the active conformation, so unlike quizartinib it retains activity against TKD mutants. Also inhibits KIT, PKC and several other kinases.",
+    "chemClass": "Indolocarbazole; a semi-synthetic derivative of the natural product staurosporine.",
+    "otherUses": "Approved with chemotherapy for FLT3-mutated AML, and for advanced systemic mastocytosis and mast cell leukemia.",
+    "status": "Approved",
+    "activeIngredient": "Midostaurin (sold as Rydapt)"
+  },
+  "Gilteritinib": {
+    "developer": "Astellas Pharma.",
+    "mechanism": "Type I FLT3 inhibitor that also blocks AXL. Because it binds the active conformation it covers both ITD and TKD (D835) mutations, which is why it is used when a type II inhibitor stops working.",
+    "chemClass": "Pyrazinecarboxamide.",
+    "otherUses": "Approved for relapsed or refractory FLT3-mutated AML. Not used outside AML.",
+    "status": "Approved",
+    "activeIngredient": "Gilteritinib (sold as Xospata)"
+  },
+  "Crenolanib": {
+    "developer": "Originated at Pfizer, developed by AROG Pharmaceuticals.",
+    "mechanism": "Type I inhibitor of FLT3 and PDGFR that keeps working against D835 TKD mutants, unlike the type II drugs.",
+    "chemClass": "Benzimidazole.",
+    "otherUses": "Investigational in AML and in PDGFRA-mutant gastrointestinal stromal tumour.",
+    "status": "Investigational"
+  },
+  "Ponatinib": {
+    "developer": "ARIAD Pharmaceuticals, now Takeda.",
+    "mechanism": "Designed around a carbon–carbon triple bond that lets it reach past the bulky T315I 'gatekeeper' mutation that defeats other BCR-ABL drugs. Also inhibits FLT3, KIT, FGFR and PDGFR.",
+    "chemClass": "Imidazopyridazine with an alkyne linker.",
+    "otherUses": "Approved for chronic myeloid leukemia and Philadelphia-chromosome-positive acute lymphoblastic leukemia, particularly T315I-mutant disease.",
+    "status": "Approved",
+    "activeIngredient": "Ponatinib (sold as Iclusig)"
+  },
+  "Dovitinib": {
+    "developer": "Chiron, later Novartis.",
+    "mechanism": "Multi-targeted receptor tyrosine kinase inhibitor covering FGFR, VEGFR, PDGFR, FLT3 and KIT.",
+    "chemClass": "Benzimidazole-quinolinone.",
+    "otherUses": "Investigated in renal cell carcinoma and other solid tumours; not approved.",
+    "status": "Investigational"
+  },
+  "Foretinib": {
+    "developer": "Exelixis, later licensed to GlaxoSmithKline.",
+    "mechanism": "Inhibits MET and VEGFR2 primarily, with activity against RON, AXL, KIT and FLT3.",
+    "chemClass": "Quinoline-based small molecule.",
+    "otherUses": "Investigated in gastric, papillary renal and head-and-neck cancers; not approved.",
+    "status": "Investigational"
+  },
+  "Panobinostat": {
+    "developer": "Novartis.",
+    "mechanism": "Pan-histone deacetylase inhibitor. Histone deacetylases strip acetyl tags off the proteins DNA is wound around; blocking them loosens chromatin and switches large sets of genes back on, including ones that drive cell death.",
+    "chemClass": "Hydroxamic acid.",
+    "otherUses": "Approved with bortezomib and dexamethasone for multiple myeloma after prior therapy.",
+    "status": "Approved",
+    "activeIngredient": "Panobinostat (sold as Farydak)"
+  },
+  "Elesclomol": {
+    "developer": "Synta Pharmaceuticals.",
+    "mechanism": "A copper ionophore: it grabs copper ions and ferries them into mitochondria, where the metal overwhelms the cell with oxidative stress and triggers copper-dependent death. This is why it kills almost every sample in the panel — the mechanism is not specific to any mutation.",
+    "chemClass": "Bis(thiohydrazide) amide.",
+    "otherUses": "Failed a phase III trial in metastatic melanoma; now studied mainly as a copper-delivery tool and in copper-metabolism disease.",
+    "status": "Investigational"
+  },
+  "Selinexor": {
+    "developer": "Karyopharm Therapeutics.",
+    "mechanism": "Selective inhibitor of nuclear export. It blocks XPO1, the shuttle that carries proteins out of the nucleus, so tumour-suppressor proteins stay where they can act instead of being exported and neutralised.",
+    "chemClass": "Triazole.",
+    "otherUses": "Approved for multiple myeloma and for relapsed or refractory diffuse large B-cell lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Selinexor (sold as Xpovio)"
+  },
+  "Flavopiridol": {
+    "developer": "Derived from rohitukine, a natural product from the Indian plant Dysoxylum binectariferum; developed as alvocidib with the US National Cancer Institute.",
+    "mechanism": "Inhibits cyclin-dependent kinases, especially CDK9. Blocking CDK9 stalls transcription, which rapidly depletes short-lived survival proteins such as MCL-1 that leukemia cells depend on.",
+    "chemClass": "Semi-synthetic flavone (flavonoid alkaloid).",
+    "otherUses": "Investigated in AML and chronic lymphocytic leukemia; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Alvocidib"
+  },
+  "SNS-032": {
+    "developer": "Bristol-Myers Squibb, later Sunesis Pharmaceuticals.",
+    "mechanism": "Selective inhibitor of CDK2, CDK7 and CDK9 — blocking both cell-cycle progression and transcription.",
+    "chemClass": "Aminothiazole.",
+    "otherUses": "Investigated in chronic lymphocytic leukemia and multiple myeloma; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "SNS-032 (originally BMS-387032)"
+  },
+  "Trametinib": {
+    "developer": "Discovered by Japan Tobacco, developed by GlaxoSmithKline, now Novartis.",
+    "mechanism": "Allosteric MEK1/MEK2 inhibitor — it binds beside the ATP pocket rather than in it, locking MEK and cutting the RAS-RAF-MEK-ERK growth signal one step below RAF.",
+    "chemClass": "Pyridopyrimidinone.",
+    "otherUses": "Approved with dabrafenib for BRAF V600-mutant melanoma, non-small-cell lung cancer, and anaplastic thyroid cancer.",
+    "status": "Approved",
+    "activeIngredient": "Trametinib (sold as Mekinist)"
+  },
+  "Ibrutinib": {
+    "developer": "Celera Genomics, developed by Pharmacyclics with Janssen.",
+    "mechanism": "Forms a permanent covalent bond to a cysteine in Bruton's tyrosine kinase, switching off B-cell receptor signalling for the life of the protein.",
+    "chemClass": "Pyrazolopyrimidine bearing an acrylamide warhead.",
+    "otherUses": "Approved for chronic lymphocytic leukemia, mantle cell lymphoma, Waldenström's macroglobulinemia, marginal zone lymphoma and chronic graft-versus-host disease.",
+    "status": "Approved",
+    "activeIngredient": "Ibrutinib (sold as Imbruvica)"
+  },
+  "Entospletinib": {
+    "developer": "Gilead Sciences.",
+    "mechanism": "Selective inhibitor of spleen tyrosine kinase (SYK), a signalling hub downstream of immune receptors that some AML cells rely on.",
+    "chemClass": "Imidazopyrazine.",
+    "otherUses": "Investigated in AML and B-cell malignancies; not approved.",
+    "status": "Investigational"
+  },
+  "JQ1": {
+    "developer": "James Bradner's laboratory at the Dana-Farber Cancer Institute, published in 2010 and released as an open chemical probe.",
+    "mechanism": "BET bromodomain inhibitor. It mimics an acetylated lysine, so BRD4 binds it instead of chromatin and falls off DNA — which shuts down transcription of MYC and other cancer-driving genes.",
+    "chemClass": "Thieno-triazolo-diazepine.",
+    "otherUses": "A laboratory tool compound, never developed as a medicine; it seeded the clinical BET-inhibitor field.",
+    "status": "Tool compound",
+    "activeIngredient": "(+)-JQ1 — a laboratory probe, never formulated as a medicine"
+  },
+  "Bortezomib": {
+    "developer": "ProScript, then Millennium Pharmaceuticals (now Takeda).",
+    "mechanism": "Reversibly blocks the 26S proteasome, the cell's protein shredder. Waste protein piles up and triggers a terminal stress response — a burden felt hardest by cells that secrete protein heavily, such as myeloma cells.",
+    "chemClass": "Dipeptidyl boronic acid.",
+    "otherUses": "Approved for multiple myeloma and for mantle cell lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Bortezomib (sold as Velcade)"
+  },
+  "Azacytidine": {
+    "developer": "First synthesised in the 1960s by Alois Pískala and František Šorm at the Czechoslovak Academy of Sciences.",
+    "mechanism": "A cytidine analogue that gets built into DNA, where it traps and destroys DNA methyltransferase. Methyl marks are lost as cells divide, and silenced genes switch back on.",
+    "chemClass": "Nucleoside (pyrimidine) analogue.",
+    "otherUses": "Approved for myelodysplastic syndromes, chronic myelomonocytic leukemia and AML; a standard partner for venetoclax in older AML patients.",
+    "status": "Approved",
+    "activeIngredient": "Azacitidine (sold as Vidaza)"
+  },
+  "Lenalidomide": {
+    "developer": "Celgene (now Bristol Myers Squibb), as an analogue of thalidomide.",
+    "mechanism": "Molecular glue: it binds cereblon, part of a protein-disposal machine, and redirects it to destroy the transcription factors IKZF1 and IKZF3 — proteins the machine would otherwise ignore.",
+    "chemClass": "Thalidomide analogue (glutarimide).",
+    "otherUses": "Approved for multiple myeloma, del(5q) myelodysplastic syndrome, mantle cell lymphoma and follicular lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Lenalidomide (sold as Revlimid)"
+  },
+  "Ruxolitinib": {
+    "developer": "Incyte, partnered with Novartis outside the US.",
+    "mechanism": "Inhibits JAK1 and JAK2, the kinases that relay cytokine signals to STAT transcription factors — the pathway left constitutively on by JAK2 V617F.",
+    "chemClass": "Pyrrolopyrimidine.",
+    "otherUses": "Approved for myelofibrosis, polycythemia vera and steroid-refractory graft-versus-host disease.",
+    "status": "Approved",
+    "activeIngredient": "Ruxolitinib (sold as Jakafi / Jakavi)"
+  },
+  "Dasatinib": {
+    "developer": "Bristol-Myers Squibb.",
+    "mechanism": "A type I inhibitor of BCR-ABL that also hits the SRC-family kinases, KIT and PDGFR. Binding the active conformation lets it overcome many imatinib-resistant mutations.",
+    "chemClass": "Thiazole carboxamide.",
+    "otherUses": "Approved for chronic myeloid leukemia and Philadelphia-chromosome-positive acute lymphoblastic leukemia.",
+    "status": "Approved",
+    "activeIngredient": "Dasatinib (sold as Sprycel)"
+  },
+  "Imatinib": {
+    "developer": "Ciba-Geigy/Novartis — Alex Matter and Nicholas Lydon's chemistry with Brian Druker's clinical work.",
+    "mechanism": "Wedges into the inactive conformation of the BCR-ABL fusion kinase and holds it shut. Also inhibits KIT and PDGFR. It was the first targeted cancer drug to turn a fatal leukemia into a manageable condition.",
+    "chemClass": "2-phenylaminopyrimidine.",
+    "otherUses": "Approved for chronic myeloid leukemia, Ph+ acute lymphoblastic leukemia, gastrointestinal stromal tumour, hypereosinophilic syndrome and dermatofibrosarcoma protuberans.",
+    "status": "Approved",
+    "activeIngredient": "Imatinib mesylate (sold as Gleevec / Glivec)"
+  },
+  "Nilotinib": {
+    "developer": "Novartis, rationally redesigned from the imatinib scaffold for a tighter fit.",
+    "mechanism": "Type II BCR-ABL inhibitor, roughly 20-fold more potent than imatinib and active against many imatinib-resistant mutations.",
+    "chemClass": "Phenylaminopyrimidine.",
+    "otherUses": "Approved for chronic myeloid leukemia.",
+    "status": "Approved",
+    "activeIngredient": "Nilotinib (sold as Tasigna)"
+  },
+  "Bosutinib": {
+    "developer": "Wyeth, later Pfizer.",
+    "mechanism": "Dual SRC and ABL inhibitor; notable for sparing KIT and PDGFR, which changes its side-effect profile.",
+    "chemClass": "Quinoline carbonitrile.",
+    "otherUses": "Approved for chronic myeloid leukemia.",
+    "status": "Approved",
+    "activeIngredient": "Bosutinib (sold as Bosulif)"
+  },
+  "Erlotinib": {
+    "developer": "OSI Pharmaceuticals, with Genentech and Roche.",
+    "mechanism": "Reversibly blocks the ATP site of the EGFR kinase, cutting the growth signal in tumours driven by EGFR mutations.",
+    "chemClass": "Quinazoline.",
+    "otherUses": "Approved for EGFR-mutant non-small-cell lung cancer and, with gemcitabine, for pancreatic cancer.",
+    "status": "Approved",
+    "activeIngredient": "Erlotinib (sold as Tarceva)"
+  },
+  "Afatinib": {
+    "developer": "Boehringer Ingelheim.",
+    "mechanism": "Binds the ErbB family — EGFR, HER2 and HER4 — irreversibly through a covalent bond, giving longer-lasting blockade than reversible EGFR drugs.",
+    "chemClass": "Quinazoline with an acrylamide warhead.",
+    "otherUses": "Approved for EGFR-mutant non-small-cell lung cancer.",
+    "status": "Approved",
+    "activeIngredient": "Afatinib (sold as Gilotrif / Giotrif)"
+  },
+  "Crizotinib": {
+    "developer": "Pfizer.",
+    "mechanism": "Originally designed as a MET inhibitor; it also blocks ALK and ROS1, which became its clinical purpose after ALK fusions were found in lung cancer.",
+    "chemClass": "Aminopyridine.",
+    "otherUses": "Approved for ALK-positive and ROS1-positive non-small-cell lung cancer and for ALK-positive anaplastic large cell lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Crizotinib (sold as Xalkori)"
+  },
+  "Palbociclib": {
+    "developer": "Pfizer.",
+    "mechanism": "Inhibits CDK4 and CDK6, the kinases that release the brake protein RB and let a cell commit to division. Blocking them arrests the cell before DNA replication.",
+    "chemClass": "Pyridopyrimidine.",
+    "otherUses": "Approved with endocrine therapy for hormone-receptor-positive, HER2-negative advanced breast cancer.",
+    "status": "Approved",
+    "activeIngredient": "Palbociclib (sold as Ibrance)"
+  },
+  "Selumetinib": {
+    "developer": "Array BioPharma, developed by AstraZeneca.",
+    "mechanism": "Allosteric MEK1/2 inhibitor, cutting the RAS-driven growth signal below RAF.",
+    "chemClass": "Benzimidazole.",
+    "otherUses": "Approved for symptomatic, inoperable plexiform neurofibromas in children with neurofibromatosis type 1.",
+    "status": "Approved",
+    "activeIngredient": "Selumetinib (sold as Koselugo)"
+  },
+  "Alisertib": {
+    "developer": "Millennium Pharmaceuticals / Takeda.",
+    "mechanism": "Selective Aurora A kinase inhibitor. Aurora A organises the spindle that separates chromosomes, so blocking it causes catastrophic, lethal mitosis.",
+    "chemClass": "Benzazepine.",
+    "otherUses": "Investigated in lymphoma and small-cell lung cancer; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Alisertib (also called MLN8237)"
+  },
+  "Volasertib": {
+    "developer": "Boehringer Ingelheim.",
+    "mechanism": "Inhibits polo-like kinase 1, a master regulator of mitotic entry and exit, arresting dividing cells and driving them to apoptosis.",
+    "chemClass": "Pteridinone.",
+    "otherUses": "Investigated in AML, including in older patients with cytarabine; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Volasertib (also called BI 6727)"
+  },
+  "Idelalisib": {
+    "developer": "Calistoga Pharmaceuticals, acquired by Gilead Sciences.",
+    "mechanism": "Selectively inhibits the delta isoform of PI3K, which is largely restricted to leukocytes — so it targets B-cell survival signalling with less effect on other tissues.",
+    "chemClass": "Quinazolinone purine.",
+    "otherUses": "Approved for relapsed chronic lymphocytic leukemia and follicular B-cell non-Hodgkin lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Idelalisib (sold as Zydelig)"
+  },
+  "Rapamycin": {
+    "developer": "Isolated in 1972 by Ayerst Research Laboratories from Streptomyces hygroscopicus found in soil from Rapa Nui (Easter Island), which gave the drug its name.",
+    "mechanism": "Binds the protein FKBP12; that pair then clamps mTORC1, shutting down the growth-and-protein-synthesis programme cells run when nutrients are plentiful.",
+    "chemClass": "Macrolide (macrocyclic lactone) natural product.",
+    "otherUses": "Approved as sirolimus to prevent kidney transplant rejection, and for lymphangioleiomyomatosis; also used on drug-eluting coronary stents.",
+    "status": "Approved",
+    "activeIngredient": "Sirolimus"
+  },
+  "17-AAG": {
+    "developer": "Developed at the US National Cancer Institute as a less toxic analogue of the natural product geldanamycin.",
+    "mechanism": "Inhibits HSP90, the chaperone that folds and stabilises many cancer-driving kinases. Without it those client proteins — including mutant FLT3 — are degraded wholesale.",
+    "chemClass": "Benzoquinone ansamycin.",
+    "otherUses": "Investigated across many cancers; development was limited by liver toxicity and formulation problems. Not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Tanespimycin (17-N-allylamino-17-demethoxygeldanamycin)"
+  },
+  "Vorinostat": {
+    "developer": "Merck, from chemistry by Ronald Breslow at Columbia University with Paul Marks at Memorial Sloan Kettering.",
+    "mechanism": "Histone deacetylase inhibitor — its hydroxamic acid grabs the zinc ion in the enzyme's active site, leaving chromatin acetylated and gene expression reprogrammed.",
+    "chemClass": "Hydroxamic acid (suberoylanilide hydroxamic acid, SAHA).",
+    "otherUses": "Approved for cutaneous T-cell lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Vorinostat, i.e. suberoylanilide hydroxamic acid (SAHA)"
+  },
+  "Doramapimod": {
+    "developer": "Boehringer Ingelheim.",
+    "mechanism": "A slow, tight-binding allosteric inhibitor of p38 MAP kinase, the stress-and-inflammation signalling node.",
+    "chemClass": "Naphthalene urea.",
+    "otherUses": "Investigated for rheumatoid arthritis and Crohn's disease; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Doramapimod (also called BIRB-796)"
+  },
+  "Ralimetinib": {
+    "developer": "Eli Lilly.",
+    "mechanism": "Selective p38 MAP kinase inhibitor, blocking a stress-response pathway that supports tumour survival.",
+    "chemClass": "Imidazole.",
+    "otherUses": "Investigated in ovarian cancer and glioblastoma; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Ralimetinib (also called LY2228820)"
+  },
+  "BEZ235": {
+    "developer": "Novartis; also called dactolisib.",
+    "mechanism": "Hits PI3K and mTOR together, closing the feedback loop that lets tumours escape when only one of the two is blocked.",
+    "chemClass": "Imidazoquinoline.",
+    "otherUses": "Investigated in advanced solid tumours; development discontinued.",
+    "status": "Investigational",
+    "activeIngredient": "Dactolisib"
+  },
+  "GDC-0941": {
+    "developer": "Piramed Pharma with Genentech; also called pictilisib.",
+    "mechanism": "Pan-class-I PI3K inhibitor, blocking the pathway that relays growth-factor signals to AKT.",
+    "chemClass": "Thienopyrimidine.",
+    "otherUses": "Investigated in breast and lung cancer; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Pictilisib"
+  },
+  "PI-103": {
+    "developer": "Originated as a chemical probe from Piramed/Genentech PI3K chemistry.",
+    "mechanism": "Dual PI3K and mTOR inhibitor; widely used in the laboratory to test dependence on this pathway.",
+    "chemClass": "Pyridofuropyrimidine.",
+    "otherUses": "A tool compound; poor pharmacological properties kept it out of the clinic.",
+    "status": "Tool compound"
+  },
+  "INK-128": {
+    "developer": "Intellikine, later Takeda; also called sapanisertib or MLN0128.",
+    "mechanism": "Blocks the mTOR kinase itself, so it shuts down both mTORC1 and mTORC2 — unlike rapamycin, which leaves mTORC2 largely untouched.",
+    "chemClass": "Pyrazolopyrimidine.",
+    "otherUses": "Investigated in solid tumours and haematological cancers; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Sapanisertib (also called MLN0128 or TAK-228)"
+  },
+  "AT7519": {
+    "developer": "Astex Pharmaceuticals, found by fragment-based screening.",
+    "mechanism": "Multi-CDK inhibitor; its anti-leukemia effect comes largely from CDK9 blockade shutting off transcription of the survival protein MCL-1.",
+    "chemClass": "Pyrazole carboxamide.",
+    "otherUses": "Investigated in multiple myeloma and chronic lymphocytic leukemia; not approved.",
+    "status": "Investigational"
+  },
+  "Roscovitine": {
+    "developer": "Developed as seliciclib by Cyclacel Pharmaceuticals.",
+    "mechanism": "Purine-based CDK inhibitor competing at the ATP site of CDK2, CDK7 and CDK9.",
+    "chemClass": "Purine analogue.",
+    "otherUses": "Investigated in lung cancer, nasopharyngeal carcinoma and cystic fibrosis; not approved.",
+    "status": "Investigational",
+    "activeIngredient": "Seliciclib"
+  },
+  "Staurosporine": {
+    "developer": "Isolated in 1977 from the bacterium Streptomyces staurosporeus by Satoshi Ōmura and colleagues.",
+    "mechanism": "Binds the ATP pocket shared by almost every protein kinase, so it inhibits hundreds of them at once. That total lack of selectivity is exactly why it is used: it is the positive control that should kill any sample.",
+    "chemClass": "Indolocarbazole alkaloid natural product.",
+    "otherUses": "Far too toxic to be a medicine. Its chemistry was the starting point for midostaurin.",
+    "status": "Tool compound",
+    "activeIngredient": "Staurosporine — a bacterial natural product, not formulated as a medicine"
+  },
+  "Tofacitinib": {
+    "developer": "Pfizer.",
+    "mechanism": "Inhibits JAK1 and JAK3, damping the cytokine signalling that drives immune activation.",
+    "chemClass": "Pyrrolopyrimidine.",
+    "otherUses": "Approved for rheumatoid arthritis, psoriatic arthritis, ulcerative colitis, ankylosing spondylitis and polyarticular juvenile idiopathic arthritis.",
+    "status": "Approved",
+    "activeIngredient": "Tofacitinib (sold as Xeljanz)"
+  },
+  "Regorafenib": {
+    "developer": "Bayer.",
+    "mechanism": "A close chemical relative of sorafenib with one extra fluorine, broadening its reach across VEGFR, TIE2, KIT, RET, RAF and PDGFR.",
+    "chemClass": "Bis-aryl urea.",
+    "otherUses": "Approved for metastatic colorectal cancer, gastrointestinal stromal tumour and hepatocellular carcinoma.",
+    "status": "Approved",
+    "activeIngredient": "Regorafenib (sold as Stivarga)"
+  },
+  "Pazopanib": {
+    "developer": "GlaxoSmithKline, later Novartis.",
+    "mechanism": "Inhibits VEGFR1-3, PDGFR and KIT, working mainly by starving tumours of new blood vessels.",
+    "chemClass": "Indazolylpyrimidine.",
+    "otherUses": "Approved for advanced renal cell carcinoma and advanced soft-tissue sarcoma.",
+    "status": "Approved",
+    "activeIngredient": "Pazopanib (sold as Votrient)"
+  },
+  "Tivozanib": {
+    "developer": "Kyowa Hakko Kirin, developed by AVEO Oncology.",
+    "mechanism": "A very selective VEGFR1-3 inhibitor; the narrow target range is intended to reduce off-target toxicity relative to broader angiogenesis drugs.",
+    "chemClass": "Quinoline urea.",
+    "otherUses": "Approved for relapsed or refractory advanced renal cell carcinoma.",
+    "status": "Approved",
+    "activeIngredient": "Tivozanib (sold as Fotivda)"
+  },
+  "Linifanib": {
+    "developer": "Abbott Laboratories.",
+    "mechanism": "Selective inhibitor of the VEGF and PDGF receptor families, with activity against FLT3.",
+    "chemClass": "Indazolyl urea.",
+    "otherUses": "Investigated in hepatocellular and renal cell carcinoma; not approved.",
+    "status": "Investigational"
+  },
+  "KW-2449": {
+    "developer": "Kyowa Hakko Kirin.",
+    "mechanism": "Multi-kinase inhibitor of FLT3, ABL and Aurora kinases — combining a growth-signal block with disruption of cell division.",
+    "chemClass": "Indazole.",
+    "otherUses": "Investigated in AML, myelodysplastic syndrome and chronic myeloid leukemia; not approved.",
+    "status": "Investigational"
+  },
+  "Vargetef": {
+    "developer": "Boehringer Ingelheim. This is nintedanib, sold as Vargatef and Ofev.",
+    "mechanism": "A triple angiokinase inhibitor blocking VEGFR, FGFR and PDGFR simultaneously, cutting off three separate routes tumours use to recruit blood vessels.",
+    "chemClass": "Indolinone.",
+    "otherUses": "Approved for idiopathic pulmonary fibrosis and other progressive fibrosing interstitial lung diseases, and in the EU with docetaxel for advanced non-small-cell lung adenocarcinoma.",
+    "status": "Approved",
+    "activeIngredient": "Nintedanib (sold as Vargatef and Ofev)"
+  },
+  "Cytarabine": {
+    "developer": "Synthesised in 1959 at Upjohn, inspired by unusual nucleosides found in the Caribbean sponge Tectitethya crypta.",
+    "mechanism": "A cytosine analogue with the wrong sugar. Cells build it into DNA during replication, where it jams DNA polymerase and stalls the replication fork — so it kills whichever cells are dividing fastest.",
+    "chemClass": "Nucleoside (arabinofuranosyl) analogue.",
+    "otherUses": "The backbone of AML induction chemotherapy for fifty years; also used in acute lymphoblastic leukemia, chronic myeloid leukemia in blast crisis, and lymphoma.",
+    "status": "Approved",
+    "activeIngredient": "Cytarabine, i.e. cytosine arabinoside (ara-C)"
+  },
+  "Nutlin-3a": {
+    "developer": "Roche, discovered at its Nutley, New Jersey site — which is where the name comes from.",
+    "mechanism": "Occupies the pocket on MDM2 where p53 normally docks. Freed from MDM2, p53 accumulates and triggers arrest or apoptosis — which only works if the cell still has intact p53.",
+    "chemClass": "Cis-imidazoline.",
+    "otherUses": "A tool compound that validated MDM2-p53 as a drug target and led to clinical MDM2 inhibitors.",
+    "status": "Tool compound",
+    "activeIngredient": "Nutlin-3a — the active enantiomer of nutlin-3"
+  },
+  "AGI-5198": {
+    "developer": "Agios Pharmaceuticals.",
+    "mechanism": "Inhibits mutant IDH1 specifically. Mutant IDH1 manufactures the metabolite 2-hydroxyglutarate, which blocks the enzymes that let blood cells mature; blocking it lets differentiation resume.",
+    "chemClass": "Phenylglycine.",
+    "otherUses": "A research probe; the same programme produced the approved IDH1 inhibitor ivosidenib.",
+    "status": "Tool compound"
+  },
+  "AGI-6780": {
+    "developer": "Agios Pharmaceuticals.",
+    "mechanism": "Allosteric inhibitor of mutant IDH2, binding at the interface between the two halves of the enzyme and stopping production of 2-hydroxyglutarate.",
+    "chemClass": "Sulfonamide.",
+    "otherUses": "A research probe; the same programme produced the approved IDH2 inhibitor enasidenib.",
+    "status": "Tool compound"
+  },
+  "BMS-754807": {
+    "developer": "Bristol-Myers Squibb.",
+    "mechanism": "Inhibits the insulin-like growth factor 1 receptor and the closely related insulin receptor, cutting a growth and survival signal many tumours co-opt.",
+    "chemClass": "Pyrrolotriazine.",
+    "otherUses": "Investigated in solid tumours; not approved.",
+    "status": "Investigational"
+  },
+  "PH-797804": {
+    "developer": "Pfizer.",
+    "mechanism": "Selective inhibitor of the alpha isoform of p38 MAP kinase, the main inflammatory arm of that pathway.",
+    "chemClass": "Pyridinone benzamide.",
+    "otherUses": "Investigated in chronic obstructive pulmonary disease and rheumatoid arthritis; not approved.",
+    "status": "Investigational"
+  },
+  "A-674563": {
+    "developer": "Abbott Laboratories.",
+    "mechanism": "Inhibits AKT1 along with PKA and CDK2, blocking the main survival pathway downstream of PI3K.",
+    "chemClass": "Pyrazolopyrimidine.",
+    "otherUses": "A tool compound; not developed clinically.",
+    "status": "Tool compound"
+  },
+  "PP242": {
+    "developer": "Developed as a chemical probe in academic kinase chemistry, later associated with Intellikine.",
+    "mechanism": "ATP-competitive mTOR kinase inhibitor blocking both mTORC1 and mTORC2, used to distinguish rapamycin-sensitive from rapamycin-insensitive mTOR functions.",
+    "chemClass": "Pyrazolopyrimidine.",
+    "otherUses": "A laboratory tool compound.",
+    "status": "Tool compound"
+  }
+}

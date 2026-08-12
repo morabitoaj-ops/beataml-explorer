@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BeatAML2 Explorer</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="app">
+  <h1>BeatAML2 Explorer</h1>
+  <span class="sub">805 patients &middot; ex&nbsp;vivo drug response, somatic mutations, outcomes</span>
+  <span class="spacer"></span>
+  <button class="theme-toggle" id="theme-toggle" type="button">Theme: auto</button>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" data-view="overview" aria-selected="true">Cohort</button>
+  <button role="tab" data-view="genetics" aria-selected="false">Genomics</button>
+  <button role="tab" data-view="patient" aria-selected="false">Patient</button>
+  <button role="tab" data-view="drugs" aria-selected="false">Drug response</button>
+  <button role="tab" data-view="omics" aria-selected="false">Transcriptomics</button>
+  <button role="tab" data-view="match" aria-selected="false">Profile match</button>
+  <button role="tab" data-view="survival" aria-selected="false">Survival</button>
+</nav>
+
+<div class="filterbar" id="filterbar">
+  <div class="fgroup">
+    <label for="f-eln">ELN 2017 risk</label>
+    <select id="f-eln" multiple size="4"></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-stage">Disease stage</label>
+    <select id="f-stage" multiple size="4"></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-sex">Sex</label>
+    <select id="f-sex"><option value="">Any</option></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-specimen">Specimen</label>
+    <select id="f-specimen"><option value="">Any</option></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-gene">Mutated gene</label>
+    <select id="f-gene"><option value="">Any</option></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-fusion">Fusion</label>
+    <select id="f-fusion"><option value="">Any</option></select>
+  </div>
+  <div class="fgroup">
+    <label for="f-agemin">Age range</label>
+    <div style="display:flex;gap:5px;align-items:center">
+      <input type="number" id="f-agemin" min="0" max="100" step="1" placeholder="0" style="min-width:66px">
+      <span style="color:var(--text-muted)">&ndash;</span>
+      <input type="number" id="f-agemax" min="0" max="100" step="1" placeholder="100" style="min-width:66px">
+    </div>
+  </div>
+  <div class="fgroup">
+    <label>&nbsp;</label>
+    <button class="btn" id="f-reset" type="button">Reset filters</button>
+  </div>
+  <div class="count" id="f-count"><b>805</b> patients</div>
+</div>
+<div class="chips" id="chips"></div>
+
+<main>
+  <div class="loading" id="loading">Loading BeatAML 2.0 data&hellip;</div>
+
+  <section class="view" id="view-overview" hidden></section>
+  <section class="view" id="view-genetics" hidden></section>
+  <section class="view" id="view-patient" hidden></section>
+  <section class="view" id="view-drugs" hidden></section>
+  <section class="view" id="view-omics" hidden></section>
+  <section class="view" id="view-match" hidden></section>
+  <section class="view" id="view-survival" hidden></section>
+</main>
+
+<footer class="app">
+  Data: <a href="https://biodev.github.io/BeatAML2/" target="_blank" rel="noopener">BeatAML 2.0</a>
+  (Bottomly et al., <i>Cancer Cell</i> 2022), released under CC-BY-4.0. Genome build GRCh37.
+  Ex&nbsp;vivo inhibitor sensitivity is reported as area under the dose&ndash;response curve (AUC);
+  <b>lower AUC = more sensitive</b>. This is a research and teaching tool, not a clinical decision aid.
+</footer>
+
+<div id="tooltip" role="status" aria-live="polite"></div>
+
+<script src="js/lib/d3.v7.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
