@@ -279,9 +279,17 @@ expression matrix alone is 268 MB, past GitHub's 100 MB per-file limit. Run
 derived JSON the site actually loads **is** committed under `web/data/`, so a
 fresh clone runs immediately with no build step.
 
-No code licence has been chosen yet, so the source defaults to all-rights-
-reserved. Add a LICENSE file if you want others to reuse it. The *data* is
-CC-BY-4.0 and is redistributed here under that licence, with attribution below.
+## Licence
+
+Released under **Creative Commons Attribution 4.0 International (CC-BY-4.0)** —
+see `LICENSE`. You may share and adapt this, including commercially, provided
+you give appropriate credit and indicate any changes.
+
+The same licence covers the BeatAML 2.0 data redistributed under `web/data/`,
+so the whole repository travels under one set of terms. (CC licences are more
+usually applied to data and prose than to source code — MIT or Apache-2.0 are
+the conventional software choices — but matching the upstream data licence keeps
+this repository internally consistent.)
 
 ## Source & licence
 
